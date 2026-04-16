@@ -1,0 +1,289 @@
+*{
+     padding: 0;
+     margin: 0;
+      box-sizing: border-box;
+       font-family: Tahoma, Geneva, Verdana, sans-serif; font-style: italic; 
+}
+html { 
+    scroll-behavior: smooth; 
+    height: 100%;
+ }
+ body{ 
+    background-color: #3A6073; 
+    overflow-x: hidden;
+     /* *height: 100%;/* */ 
+}
+/* Home */
+.home{ 
+    height: 90vh;
+}
+header h1{
+     text-align: center; 
+     font-size: 40px;
+     font-weight: bolder;
+     margin-bottom: 0;
+}
+main{ 
+    height: 80vh;
+}
+main nav { 
+    border-bottom:2px solid #000;
+     display: flex; 
+     justify-content: center; 
+     height: 15%;
+}
+main nav .links {
+     margin-top: 10px;
+      font-size: 10px;
+}
+main nav .links ul { 
+    list-style: none;
+}
+main nav .links ul li {
+     display: inline-block;
+    text-align: center; 
+    padding:5px; 
+    margin-bottom:20px ;
+}
+main nav .links ul li a {
+     text-decoration: none;
+     color:white;
+     font-size: 15px;
+     transition-duration: 0.5s;
+}
+main nav .links ul li a:hover{ 
+    background-color:#16222A ;
+}
+.container p,h3{
+     text-align: center;
+      margin:5px 0PX;
+}
+.container h3{
+    color: #16222A;
+    margin:20px 0px;
+    font-size: 15px; 
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.content p{
+     text-align: center;
+    margin: 10px 0px;
+    font-size: 15px ;
+
+}
+.container p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.end{ 
+    width: 100%;
+    border-radius: 2px;
+    padding: 11px 0px;
+    line-height: 30px;
+    height: 10vh;
+}
+.end p{ 
+    background-color:#16222A;
+    text-align: center;
+    letter-spacing: 1px; 
+    padding: 20px; 
+}
+.home .end{
+    
+}
+/* My cources */
+.mycourses{ 
+    height: 70vh;
+    min-height: auto;
+    padding-bottom: 80px;
+}
+h2{ 
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+table{ 
+    width: 70%;
+    margin:0 auto;
+    height: auto;
+    margin-bottom: 10px;/* 10 */
+    border-collapse: collapse;
+    border-radius: 5px;
+
+}
+td,th{
+    text-align: center;
+    padding:12px;
+}
+tr:nth-child(odd){ 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+th{ 
+    transition-duration: 0.5s;
+}
+th:hover{ 
+    background-color: #16222A;
+     color: white;
+}
+td:hover {
+     background-color:#16222A;
+      color: white;
+}
+.bar{ 
+    margin-bottom: 40px;
+     height: auto; 
+}
+.foot{
+    width: 100%;
+    margin-top:10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;/*  */
+    justify-content: center;  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    line-height: 18px;
+}
+.foot p{
+    width: 100%;
+    background-color: #16222A;
+    text-align: center;
+    letter-spacing: 1px; 
+    padding: 20px; 
+}
+/* Add course */
+#Add{
+     width: 100%;
+    height: 100vh;
+}
+#Add form{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+}
+#Add form .input-group{
+     margin-bottom: 10px; 
+}
+#Add form .input-group label{
+     display: block;
+      margin-bottom: 5px; 
+}
+#Add form .input-group input{ 
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border-color: transparent;
+    transition-duration: 1s; 
+}
+#Add form .input-group input:hover{
+     border: 1.5px solid #000;
+}
+#Add form .input-group textarea{
+     width: 100%;
+      height:150px; 
+      resize: none;
+      margin-bottom: 15px;
+}
+#Add form button{
+    width: 100%;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: #16222A;
+    color: white;
+    letter-spacing: 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#Add form button:hover{
+    background-color: transparent;
+    color: #000; 
+}
+.foott{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.foott p{
+    width: 100%;
+    background-color: #16222A;
+    text-align: center;
+    letter-spacing: 1px; 
+    padding: 20px; 
+}
+/* Contact us */
+#contact{ 
+    width: 100%;
+     height: 100vh;
+}
+#contact form{
+     width: 70%;
+      margin: 0 auto;
+}
+#contact form .input-group{
+     margin-bottom: 15px; 
+}
+#contact form .input-group label{
+     display: block;
+      margin-bottom: 10px;
+}
+#contact form .input-group input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: transparent;
+    transition-duration: 1s;
+}
+#contact form .input-group input:hover{
+    border: 3.5px solid rgba(96, 26, 26, 0.7);
+}
+#contact form .input-group textarea{
+    width: 100%;
+    height:120px;
+    resize: none;
+}
+#contact form button{
+    width: 100%;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 10px; 
+    font-size: 20px;
+    font-weight: 200; 
+    background-color:#3A6073 ;
+    color: black; 
+    letter-spacing: 2px; 
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 32px;
+}
+#contact form button:hover{
+     background-color: #16222A;
+      color: white; 
+}
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    width: 100%;
+    background-color: #16222A;
+    text-align: center;
+    letter-spacing: 1px; 
+    padding: 20px; 
+    margin-top: 5px;
+}
+/*  *#contact .end{
+     margin-top: 25px; 
+}

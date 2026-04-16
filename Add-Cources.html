@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Course Organizer</title>
+        <link rel="stylesheet" href="./style.css/index.css">
+        <link rel="stylesheet" href="./style.css/index.Responsive.css">
+    </head>
+    <body>
+        <header>
+            <h1>Personal Course Organizer</h1>
+        </header>
+        <main class="bar">
+            <nav>
+                <div class="links">
+                    <ul>
+                        <li><a href="index.Home.html">Home</a></li>
+                        <li><a href="My-cources.html">My Courses</a></li>
+                        <li><a href="Add-Cources.html">Add Course</a></li>
+                        <li><a href="Contact-Us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </main>
+        <section id="Add">
+            <form>
+                <div class="input-group">
+                    <label for="Course-Name">Course Name :</label>
+                    <input type="text" id="Course-Name" name="Course-Name"
+                        required>
+                </div>
+                <div class="input-group">
+                    <label for="Instructor">Instructor :</label>
+                    <input type="text" id="Instructor" name="Instructor">
+                </div>
+                <div class="input-group">
+                    <label for="Credit-Hours">Credit Hours :</label>
+                    <input type="number" id="Credit-Hours" name="Credit Hours"
+                        min="2" max="5"
+                        required>
+                </div>
+                <div class="input-group">
+                    <label for="Notes">Notes :</label>
+                    <textarea name="Notes" id="Notes"></textarea>
+                </div>
+                <button>Submit New Course</button>
+            </form>
+        </section>
+        <footer class="foott">
+            <p> Designed By Omar Eid 2026-Personal Courses Organizer </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,321 @@
+@media (max-width: 350px)/* 350 */{
+    .home{
+        height: 85vh;
+    }
+     h1{
+        font-size:15px ;
+        font-weight: 300;
+    }
+    .end{
+        line-height: 15px;
+        margin-top:25px ;
+    }
+    .end p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    table{
+        width: 100%;
+        font-size: 10px;
+    }
+    td,th{
+        padding: 3px 2px;
+    }
+    .foot p{
+        font-size: 10px;
+        padding: 10px 5px;
+    }
+    #Add{
+        min-height: 100vh;
+    }
+    #Add , form{
+        width: 90%;
+        margin: 10px auto;
+        padding: 15px 10px;
+    }
+    #Add form label{
+        display: block;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #Add form .input-group{
+        width:100%;
+        margin-bottom: 5px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #Add form textarea{
+        height: 80px;
+        margin-bottom: 10px;
+    }
+    #Add form button{
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+        margin-top: -5px;
+    }
+    .foott{
+        margin-top: 200px;
+        line-height: 15px;
+
+    }
+}
+@media (min-width: 371px) and (max-width: 1300px) {
+   header h1 {
+        font-size: 32px;
+        padding: 5px;
+    }
+    main nav .links ul li a {
+        font-size: 14px; 
+    }
+    .home .end {
+        margin-top: 80px; 
+    }
+    .container h3 {
+        font-size: 18px;
+    }
+    .container p, .content p {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+    .end p {
+        font-size: 13px;
+        padding: 20px ;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .active{
+        width: 100%;
+        
+    }
+    table{
+        width: 95%;
+        font-size:12px ;
+    }
+    td,th{
+        padding: 5px 3px;
+    }
+    .foot p{
+        font-size: 12px;
+        line-height: 1.5px;
+    }
+    .foott{
+        margin-top:180px ;
+        
+    }
+    
+}/* 450 */
+
+@media (min-width: 576px) and (max-width: 1300px) {
+    .home h1{
+        font-size: 35px;
+        font-weight: 550;
+        padding: 5px;
+    }
+    main nav .links ul li a{
+        font-size: 15px;
+    }
+    .container h3{
+        font-size: 20px;
+    }
+    .container p,.content p{
+        font-size: 15px;
+    }
+    .end{
+        margin-top: 9px;
+        font-size: 15px;
+    } 
+    .end p{
+        padding: 15px;
+        margin-top:20px ;
+    }
+    h2{
+        font-size: 20px;
+        margin: 15px 0px;
+    }
+    .active{
+        width: 100%;
+        padding: 0 10px;
+        overflow-x: auto;
+    }
+    table{
+        width: 100%;
+        min-width: 500px;
+        font-size: 14px;
+        padding: 8px 5px;
+    }
+    td,th{
+        padding: 8px 10px;
+    }
+    #Add form textarea{
+        margin-bottom: 10px;
+    }
+    
+   
+}/* 650 */
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .home h1{
+        font-size: 30px;
+        font-weight: 550;
+    }
+    main nav{
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    main nav .links ul li{
+        padding: 20px;
+    }
+    main nav .links ul li a{
+        font-size: 20px;
+    }
+    content {
+        margin: 25px 0px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .container{
+        margin-bottom: 20px;
+    }
+    .container h3, p{
+        font-size: 20px;
+    }
+    .container p{
+         font-weight: bold;
+    }
+    .end{
+        margin-top: 26.5px;
+    }
+    .end p{
+        font-size: 20px;
+    }
+    .active{
+        min-height: 500px;
+    }
+    table{
+        width: 90%;
+    }
+    th,td{
+        padding: 22px 15px;
+        font-size: 13px;
+    }
+    .foot p{
+        font-size: 15px;
+    }
+    
+}/* 850 */
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .home h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    main nav{
+        margin-bottom: 25px;
+    }
+    main nav .links ul li{
+        padding:10px ;
+    }
+    main nav .links ul li a{
+        font-size: 25px;
+    }
+    .container h3{
+        font-size:23px ;
+    }
+    .content p {
+        font-size: 23px;
+    }
+    .container p{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .end{
+       margin-top: 5px;
+    }
+    h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .active{
+        height: auto;
+        min-height: 600px;
+    }
+    table{
+        width:85%;
+        margin: 0 auto;
+        height: auto;
+    }
+    th,td{
+        padding: 25px 15px;
+        font-size: 15px;
+    }
+    .foot p{
+        font-size: 18px;
+    }
+    #Add form{
+
+    }
+}/* 1050 */
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    .home h1{
+        font-size: 40px;
+    }
+    main nav{
+        margin-bottom:45px ;
+    }
+    main nav .links ul li {
+        padding: 0 15px;
+    }
+     main nav .links ul li a{
+        font-size: 25px;
+    }
+    .content p{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .container h3{
+        font-size:20px ;
+        margin-bottom: 5px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .end {
+        line-height: px;
+        margin-top: 50px;
+    }
+    .end p{
+        font-size: 25px;
+        letter-spacing: 2.5px;
+    }
+    h2{
+        font-size: 25px;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+    }
+    .active{
+        min-height: 700px;
+        padding-top:30px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: auto;
+    }
+    table{
+        width: 80%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    th,td{
+        padding: 28px 20px;
+        font-size: 18px;
+    }
+    
+}
+
